@@ -1,0 +1,12 @@
+# Install a CUDA-enabled PyTorch build in the active environment first.
+numpy<2
+gymnasium[atari]==0.29.1
+ale-py==0.8.1
+AutoROM[accept-rom-license]==0.4.2
+stable-baselines3==2.2.1
+tyro==0.6.3
+tensorboard
+opencv-python-headless
+pandas
+loguru
+tabulate

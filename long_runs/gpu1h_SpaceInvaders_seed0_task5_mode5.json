@@ -1,0 +1,26 @@
+{
+  "env": "ALE/SpaceInvaders-v5",
+  "task_id": 5,
+  "mode": 5,
+  "seed": 0,
+  "steps_per_visit": 18688,
+  "repeats": 2,
+  "argmax_source": 1,
+  "source_distances": [
+    0.03385200724005699,
+    0.013342631980776787,
+    0.03620497137308121,
+    0.015674566850066185,
+    0.03462096303701401
+  ],
+  "clonalg_weights": [
+    0.0078125,
+    0.0078125,
+    0.0,
+    0.9765625,
+    0.0078125
+  ],
+  "clonalg_search_seconds": 0.9098510240000905,
+  "reuse_tag": "gpu100k",
+  "reuse_visits": 5
+}

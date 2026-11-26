@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.uv_bootstrap/
+.pytest_cache/
+.DS_Store
+
+*.log
+*.pid
+*.pt
+*.pth
+*.tmp
+events.out.tfevents.*
+/runs/
+/robotic/runs/
+/robotic/logs/

@@ -1,0 +1,18 @@
+{
+  "env": "ALE/Freeway-v5",
+  "task_id": 2,
+  "mode": 2,
+  "seed": 0,
+  "steps_per_visit": 100000,
+  "repeats": 2,
+  "argmax_source": 1,
+  "source_distances": [
+    0.005223503336310387,
+    0.0042046750895679
+  ],
+  "clonalg_weights": [
+    0.2109375,
+    0.7890625
+  ],
+  "clonalg_search_seconds": 0.840049024001928
+}

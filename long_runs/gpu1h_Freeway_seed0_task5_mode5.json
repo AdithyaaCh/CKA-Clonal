@@ -1,0 +1,26 @@
+{
+  "env": "ALE/Freeway-v5",
+  "task_id": 5,
+  "mode": 5,
+  "seed": 0,
+  "steps_per_visit": 18688,
+  "repeats": 2,
+  "argmax_source": 1,
+  "source_distances": [
+    0.004900004714727402,
+    0.0035974502097815275,
+    0.0039865621365606785,
+    0.0036930516362190247,
+    0.004162293393164873
+  ],
+  "clonalg_weights": [
+    0.0859375,
+    0.640625,
+    0.03125,
+    0.2265625,
+    0.015625
+  ],
+  "clonalg_search_seconds": 0.7189079800009495,
+  "reuse_tag": "gpu100k",
+  "reuse_visits": 4
+}

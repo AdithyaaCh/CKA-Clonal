@@ -1,0 +1,251 @@
+{
+  "sequence": [
+    "push-v2",
+    "reach-wall-v2",
+    "push-wall-v2"
+  ],
+  "source_steps_each": 300000,
+  "target_steps_each": 300000,
+  "probe_steps_each": 256,
+  "seed": 0,
+  "methods": {
+    "Randn": {
+      "evals": [
+        {
+          "step": 256,
+          "return": 22.301427199789757,
+          "success": 0.0
+        },
+        {
+          "step": 25000,
+          "return": 24.63322251914061,
+          "success": 0.0
+        },
+        {
+          "step": 50000,
+          "return": 33.53480289154058,
+          "success": 0.0
+        },
+        {
+          "step": 75000,
+          "return": 32.09474731252652,
+          "success": 0.0
+        },
+        {
+          "step": 100000,
+          "return": 67.8477849962406,
+          "success": 0.0
+        },
+        {
+          "step": 125000,
+          "return": 93.08089836805215,
+          "success": 0.0
+        },
+        {
+          "step": 150000,
+          "return": 38.62075730108205,
+          "success": 0.0
+        },
+        {
+          "step": 175000,
+          "return": 53.7398864793048,
+          "success": 0.0
+        },
+        {
+          "step": 200000,
+          "return": 21.396592217425926,
+          "success": 0.0
+        },
+        {
+          "step": 225000,
+          "return": 78.63030677992484,
+          "success": 0.0
+        },
+        {
+          "step": 250000,
+          "return": 68.47948389603908,
+          "success": 0.0
+        },
+        {
+          "step": 275000,
+          "return": 254.84642019593338,
+          "success": 0.0
+        },
+        {
+          "step": 300000,
+          "return": 92.45064391156257,
+          "success": 0.0
+        }
+      ],
+      "init": {
+        "method": "Randn",
+        "weights": [
+          0.7144737839698792,
+          0.28552621603012085
+        ]
+      },
+      "path": "robotic/agents/robotic_push_seed0_300k_cpu_randn/task_2__cka-rl__run_sac__0"
+    },
+    "Argmax": {
+      "evals": [
+        {
+          "step": 256,
+          "return": 22.49733949032561,
+          "success": 0.0
+        },
+        {
+          "step": 25000,
+          "return": 42.99640325203541,
+          "success": 0.0
+        },
+        {
+          "step": 50000,
+          "return": 47.92757926581295,
+          "success": 0.0
+        },
+        {
+          "step": 75000,
+          "return": 299.917753692925,
+          "success": 0.0
+        },
+        {
+          "step": 100000,
+          "return": 44.16573650258182,
+          "success": 0.0
+        },
+        {
+          "step": 125000,
+          "return": 32.49463480094754,
+          "success": 0.0
+        },
+        {
+          "step": 150000,
+          "return": 29.124611147863824,
+          "success": 0.0
+        },
+        {
+          "step": 175000,
+          "return": 502.7945592020754,
+          "success": 0.0
+        },
+        {
+          "step": 200000,
+          "return": 66.06730193141195,
+          "success": 0.0
+        },
+        {
+          "step": 225000,
+          "return": 25.04942873340325,
+          "success": 0.0
+        },
+        {
+          "step": 250000,
+          "return": 38.266698265893424,
+          "success": 0.0
+        },
+        {
+          "step": 275000,
+          "return": 17.002131253357035,
+          "success": 0.0
+        },
+        {
+          "step": 300000,
+          "return": 21.372259432939178,
+          "success": 0.0
+        }
+      ],
+      "init": {
+        "weights": [
+          0.0,
+          1.0
+        ],
+        "distances": [
+          0.10537348687648773,
+          0.016456546261906624
+        ],
+        "winner": 1,
+        "method": "Argmax"
+      },
+      "path": "robotic/agents/robotic_push_seed0_300k_cpu_argmax/task_2__cka-rl__run_sac__0"
+    },
+    "Clonalg": {
+      "evals": [
+        {
+          "step": 256,
+          "return": 22.49733949032561,
+          "success": 0.0
+        },
+        {
+          "step": 25000,
+          "return": 88.20535386084528,
+          "success": 0.0
+        },
+        {
+          "step": 50000,
+          "return": 33.47958432012687,
+          "success": 0.0
+        },
+        {
+          "step": 75000,
+          "return": 157.2812386967466,
+          "success": 0.0
+        },
+        {
+          "step": 100000,
+          "return": 41.04483338506936,
+          "success": 0.0
+        },
+        {
+          "step": 125000,
+          "return": 29.412628215125217,
+          "success": 0.0
+        },
+        {
+          "step": 150000,
+          "return": 19.08697868131093,
+          "success": 0.0
+        },
+        {
+          "step": 175000,
+          "return": 9.763706791207204,
+          "success": 0.0
+        },
+        {
+          "step": 200000,
+          "return": 32.95663660013913,
+          "success": 0.0
+        },
+        {
+          "step": 225000,
+          "return": 60.94553058965532,
+          "success": 0.0
+        },
+        {
+          "step": 250000,
+          "return": 22.66772800056135,
+          "success": 0.0
+        },
+        {
+          "step": 275000,
+          "return": 41.9177325909577,
+          "success": 0.0
+        },
+        {
+          "step": 300000,
+          "return": 18.24054254805951,
+          "success": 0.0
+        }
+      ],
+      "init": {
+        "weights": [
+          0.0,
+          1.0
+        ],
+        "distance": 0.008498415350914001,
+        "search_seconds": 0.36397870699875057,
+        "method": "Clonalg"
+      },
+      "path": "robotic/agents/robotic_push_seed0_300k_cpu_clonalg/task_2__cka-rl__run_sac__0"
+    }
+  }
+}

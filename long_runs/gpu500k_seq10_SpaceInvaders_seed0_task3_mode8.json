@@ -1,0 +1,36 @@
+{
+  "env": "ALE/SpaceInvaders-v5",
+  "task_id": 3,
+  "mode": 8,
+  "seed": 0,
+  "steps_per_visit": 500000,
+  "argmax_source": 2,
+  "source_distances": [
+    0.196559876203537,
+    0.1956770271062851,
+    0.18525037169456482
+  ],
+  "clonalg_weights": [
+    0.4453125,
+    0.1328125,
+    0.421875
+  ],
+  "clonalg_search_seconds": 0.8149104510084726,
+  "mode_sequence": [
+    0,
+    1,
+    5,
+    8,
+    0,
+    3,
+    5,
+    9,
+    1,
+    3
+  ],
+  "random_weights": [
+    0.49432575702667236,
+    0.2636841833591461,
+    0.2419900894165039
+  ]
+}
